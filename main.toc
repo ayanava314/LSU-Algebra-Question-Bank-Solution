@@ -1,0 +1,2 @@
+\contentsline {chapter}{\numberline {1}Group Theory}{1}{}%
+\contentsline {chapter}{\numberline {2}Ring Theory}{3}{}%
