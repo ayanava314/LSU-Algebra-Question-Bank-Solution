@@ -4,10 +4,27 @@
 	\item[(a)] Give an example of this situation where $ K $ is not a normal subgroup of $ G $,
 	\item[(b)] Prove that if the normal subgroup $ H $ is cyclic, then $ K $ is normal in $ G $. 
 \end{itemize}
-\soln 
+\soln
 \begin{itemize}
 	\item[(a)] Let $ G=S_4 $, $ H=A_4 $, and $ K= \{e,(123),(132)\} $.
 	\item[(b)] Let $ H = <h>$ be cyclic. Let $ K= <k> $ where $ k=h^a $ for some $ a\in \mathbb{N} $.\\
 	Since $ H $ is normal, $ ghg^{-1}=h^b \in H$ for some $ b $.\\
 	$ gkg^{-1}= gh^a g^{-1}= (ghg^{-1})^a= h^{ba}=k^b\in K.$ So, $ K $ is normal in $ G $.
-\end{itemize} 
+\end{itemize}
+\qed\\
+\textbf{G2:} Prove that every finite group of order at least three has a nontrivial automorphism. 
+\soln We will try this in two cases:\\
+Case 1: The group is not abelian. Let $ g\notin Z(G) $. Let $\phi_g $ be the nontrivial automorphism $ h\mapsto ghg^{-1} $.\\
+Case 2: The group is abelian. If there is an element of order not equal to 2, the inverse map is a nontrivial automorphism. If every element is of order 2: $ G= (\mathbb{Z}/2\mathbb{Z})^n $, where $ n>1 $. Swap 2 elements.\qed\\
+\textbf{G3:}
+\begin{itemize}
+	\item[(a)] State the structure theorem for finitely generated Abelian group.
+	\item[(b)] If $ p $ and $ q $ are distinct primes, determine the number of nonisomorphic Abelian groups of order $ p^3q^4 $.
+\end{itemize}
+\soln
+\begin{itemize}
+	\item[(a)] If $ G $ is finitely generated Abelian group, $ G $ is isomorphic to $ \mathbb{Z}^n \times \mathbb{Z}_{a_1}\times \cdots \times \mathbb{Z}_{a_r}$ where $ a_i\mid a_{i+1} $, $ \mathbb{Z}_a = \mathbb{Z}/a\mathbb{Z}$ cyclic group of order $ a $. 
+	\item[(b)] Let $ P(n) $ be the partition function. The number of nonisomorphic Abelian groups of order $ p^3q^4 = P(3)P(4)=3\times 5 = 15$.
+\end{itemize}
+\qed\\
+\textbf{G4:}
