@@ -27,4 +27,59 @@ Case 2: The group is abelian. If there is an element of order not equal to 2, th
 	\item[(b)] Let $ P(n) $ be the partition function. The number of nonisomorphic Abelian groups of order $ p^3q^4 = P(3)P(4)=3\times 5 = 15$.
 \end{itemize}
 \qed\\
-\textbf{G4:}
+\textbf{G4:}Let $G=\mathrm{GL}\left(2, \mathbb{F}_p\right)$ be the group of invertible $2 \times 2$ matrices with entries in the finite field $\mathbb{F}_p$, where $p$ is a prime.
+\begin{itemize}
+	\item[(a)] Show that $G$ has order $\left(p^2-1\right)\left(p^2-p\right)$.
+	\item[(b)] Show that for $p=2$ the group $G$ is isomorphic to the symmetric group $S_3$.
+\end{itemize}
+\soln
+\begin{itemize}
+	\item[(a)] Choosing a invertible $ 2\times2 $ matrix is equivalent to choosing two linearly independent vectors(which will be the columns of the matrix) from the space $ \mathbb{F}_p^2 $. We can choose a nonzero vector in $\mid \mathbb{F}_p^2\mid -1 =  p^2-1 $ ways and the second vector can't be a multiple of the first vector(there are $ p $ of them). So, we can choose the second vector in $ p^2-p $ ways.
+	\item[(b)] The group is of order $ 6 $. We just have to show that it is not abelian. Show for the elements $a= \matr{0}{1}{1}{0} $ and $b= \matr{1}{1}{0}{1} $. $ ab=\matr{0}{1}{1}{1}, ba= \matr{1}{1}{1}{0}. $
+\end{itemize}
+
+
+\qed\\
+\textbf{G5:} Let $G$ be the group of units of the ring $\mathbb{Z} / 247 \mathbb{Z}$.
+\begin{itemize}
+	\item[(a)] Determine the order of $G$ (note that $247=13 \cdot 19$ ).
+	\item[(b)] Determine the structure of $G$ (as in the classification theorem for finitely generated abelian groups). Hint: Use the Chinese Remainder Theorem.
+\end{itemize}
+\soln
+\qed\\
+\textbf{G6:} Let $G$ be the group of invertible $2 \times 2$ upper triangular matrices with entries in $\mathbb{R}$. Let $D \subseteq G$ be the subgroup of invertible diagonal matrices and let $U \subseteq G$ be the subgroup of matrices of the form $\left[\begin{array}{ll}1 & x \\ 0 & 1\end{array}\right]$ where $x \in \mathbb{R}$ is arbitrary.
+\begin{itemize}
+	\item[(a)] Show that $U$ is a normal subgroup of $G$ and that $G / U$ is isomorphic to $D$.
+	\item[(b)] True or False (with justification): $G \cong U \times D$
+\end{itemize}
+\soln
+\qed\\
+\textbf{G7:} Let $G$ be a group and let $Z$ denote the center of $G$.
+\begin{itemize}
+	\item[(a)] Show that $Z$ is a normal subgroup of $G$.
+	\item[(b)] Show that if $G / Z$ is cyclic, then $G$ must be abellan.
+	\item[(c)] Let $D_6$ be the dihedral group of order 6 . Find the center of $D_6$.
+\end{itemize}
+\soln
+\qed\\
+
+\textbf{G8:} List all abelian groups of order 8 up to isomorphism. Identify which group on your list is isomorphic to each of the following groups of order 8 . Justify your answer.
+\begin{itemize}
+	\item[(a)] $(Z / 15 Z)^*=$ the group of units of the ring $Z / 15 Z$.
+	\item[(b)] The roots of the equation $z^8-1=0 \mathrm{in} \mathrm{C}$.
+	\item[(c)] $\mathbb{F}_8^{+}=$the additive group of the field $\mathbb{F}_8$ with eight elements.
+\end{itemize}
+\soln
+\qed\\
+\textbf{G9:} Let $S_9$ denote the symmetric group on 9 elements.
+\begin{itemize}
+	\item[(a)] Find an element of $S_9$ of order 20.
+	\item[(b)] Show that there is no element of $S_9$ of order 18 .
+\end{itemize}
+\soln
+\qed\\
+
+\textbf{G10:} $G=\left\{\left[\begin{array}{cc}a & b \\ 0 & a^{-1}\end{array}\right]: a, b \in \mathbb{R}, a>0\right\}$ and $N=\left\{\left[\begin{array}{ll}1 & c \\ 0 & 1\end{array}\right]: c \in \mathbb{R}\right\}$ are groups under matrix multiplication.
+\begin{itemize}
+	\item[(a)] Show that $N$ is a normal subgroup of $G$ and that $G / N$ is isomorphic to the multiplicative group of positive real numbers $\mathbb{R}^{+}$.
+\end{itemize}
