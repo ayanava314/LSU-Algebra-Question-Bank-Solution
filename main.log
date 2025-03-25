@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.24)  26 MAR 2025 00:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.24)  26 MAR 2025 01:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -654,7 +654,8 @@ dftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count321
 \l__pdf_internal_box=\box118
-) (main.aux (TeX_files/chapter01.aux) (TeX_files/chapter02.aux))
+) (main.aux (TeX_files/chapter01.aux) (TeX_files/chapter02.aux)
+(TeX_files/chapter03.aux) (TeX_files/chapter04.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -772,12 +773,12 @@ Chapter 1.
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
@@ -791,21 +792,42 @@ Chapter 2.
 
 
 
-] [4
+]
+\openout2 = `./TeX_files/chapter03.aux'.
+
+ (TeX_files/chapter03.tex [4
 
 
 
-] (main.aux (TeX_files/chapter01.aux) (TeX_files/chapter02.aux))
+
+]
+Chapter 3.
+) [5]
+\openout2 = `./TeX_files/chapter04.aux'.
+
+ (TeX_files/chapter04.tex [6
+
+
+
+
+]
+Chapter 4.
+) [7] [8
+
+
+
+] (main.aux (TeX_files/chapter01.aux) (TeX_files/chapter02.aux)
+(TeX_files/chapter03.aux) (TeX_files/chapter04.aux))
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 15376 strings out of 475248
- 317240 string characters out of 5756869
+ 15426 strings out of 475248
+ 319358 string characters out of 5756869
  1936785 words of memory out of 5000000
- 36595 multiletter control sequences out of 15000+600000
+ 36631 multiletter control sequences out of 15000+600000
  568279 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,9n,97p,473b,210s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -829,9 +851,9 @@ pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users
 ><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmti10.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (8 pages, 209620 bytes).
+Output written on main.pdf (12 pages, 216874 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
+ 129 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

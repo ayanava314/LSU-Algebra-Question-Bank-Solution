@@ -1,2 +1,4 @@
 \contentsline {chapter}{\numberline {1}Group Theory}{1}{}%
 \contentsline {chapter}{\numberline {2}Ring Theory}{3}{}%
+\contentsline {chapter}{\numberline {3}Module Theory}{5}{}%
+\contentsline {chapter}{\numberline {4}Linear Algebra}{7}{}%
