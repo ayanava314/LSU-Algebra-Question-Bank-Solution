@@ -44,6 +44,9 @@ Case 2: The group is abelian. If there is an element of order not equal to 2, th
 	\item[(b)] Determine the structure of $G$ (as in the classification theorem for finitely generated abelian groups). Hint: Use the Chinese Remainder Theorem.
 \end{itemize}
 \soln
+We will discuss a bit about the group of units. Let  $ N= 2^k p_1^{k_1}\cdots p_n^{k_n} $ where $ p_i $s are odd primes. By CRT, we have $ (\Z_N)= (\Z_{2^k})\times (\Z_{p_1^{k_1}}) \times \cdots\times (\Z_{p_n^{k_n}}) $. We have the unit group $$ (\Z_N)^\times= (\Z_{2^k})^\times\times (\Z_{p_1^{k_1}})^\times \times \cdots\times (\Z_{p_n^{k_n}})^\times $$. For odd prime powers, we have that the unit group is cyclic $ (\Z_{p^{k}})^\times = \Z_{p^k-p^{k-1}} $.\\
+For $ 2^k $ we have $ (\Z_{2})^\times = \Z_1 $ the trivial group, $ (\Z_{4})^\times = \Z_2 $ cyclic and $ (\Z_{2^k})^\times = \Z_2 \times \Z_{2^{k-2}} $ noncyclic groups for $ 2^k\ge 8 $. So the only time where the unit group is cyclic is $ N=1,2,4,p^k, 2p^k $ where $ p $ is an odd prime.\\
+So, for $ N=247 $ the order of the group is $ 12\times 18=216 $. And the structure of $ G $ is $ \Z_{12} \times \Z_{18}= \Z_{3}\times \Z_4 \times \Z_9 \times \Z_2 = \Z_{6}\times \Z_{36}$.\\
 \qed\\
 \textbf{G6:} Let $G$ be the group of invertible $2 \times 2$ upper triangular matrices with entries in $\mathbb{R}$. Let $D \subseteq G$ be the subgroup of invertible diagonal matrices and let $U \subseteq G$ be the subgroup of matrices of the form $\left[\begin{array}{ll}1 & x \\ 0 & 1\end{array}\right]$ where $x \in \mathbb{R}$ is arbitrary.
 \begin{itemize}
@@ -51,6 +54,7 @@ Case 2: The group is abelian. If there is an element of order not equal to 2, th
 	\item[(b)] True or False (with justification): $G \cong U \times D$
 \end{itemize}
 \soln
+
 \qed\\
 \textbf{G7:} Let $G$ be a group and let $Z$ denote the center of $G$.
 \begin{itemize}
