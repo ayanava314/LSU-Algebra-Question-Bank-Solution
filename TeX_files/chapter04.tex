@@ -1,2 +1,33 @@
 \chapter{Linear Algebra}
-\textbf{L1:}
+\textbf{L1:}Let $V$ be a vector space of dimension 3 over $\mathbb{C}$. Let $\left\{v_{1}, v_{2}, v_{3}\right\}$ be a basis for $V$ and let $T: V \rightarrow V$ be the linear transformation defined by $T\left(v_{1}\right)=0, T\left(v_{2}\right)=-v_{1}$, and $T\left(v_{3}\right)=5 v_{1}+v_{2}$.\\
+(a) Show that $T$ is nilpotent.\\
+(b) Find the Jordan canonical form of $T$.\\
+(c) Find a basis of $V$ such that the matrix of $T$ with respect to this basis is the Jordan canonical form of $T$.\\
+L2. Let $p$ be a prime number and let $V$ be a 2 -dimensional vector space over the field $\mathbb{F}_{p}$ with $p$ elements.\\
+(a) Find the number of linear transformations $T: V \rightarrow V$.\\
+(b) Find the number of invertible linear transformations $T: V \rightarrow V$.
+
+L3. Let $T: \mathbb{R}^{n} \rightarrow \mathbb{R}^{n}$ be a linear transformation, with minimal polynomial $m_{T}(X)$ in $\mathbb{R}[X]$. Assume that $m_{T}(X)$ factors in $\mathbb{R}[X]$ as $f(X) g(X)$ with $f(X)$ and $g(X)$ relatively prime. Show that $\mathbb{R}^{n}$ can be written as a direct sum $\mathbb{R}^{n}=U \oplus V$, where $U$ and $V$ are $T$-invariant subspaces with $\left.T\right|_{U}$ having minimal polynomial $f(X)$ and $\left.T\right|_{V}$ having minimal polynomial $g(X)$.\\
+L4. Let $T: \mathbb{C}^{n} \rightarrow \mathbb{C}^{n}$ be a nilpotent linear transformation.\\
+(a) How is $\operatorname{dim} \operatorname{Ker} T$ related to the Jordan normal form of $T$ ? How is the minimal polynomial related to the Jordan normal form?\\
+(b) Let $T, S: \mathbb{C}^{6} \rightarrow \mathbb{C}^{6}$ be nilpotent linear transformations such that $S$ and $T$ have the same minimal polynomial and $\operatorname{dim} \operatorname{Ker} T=\operatorname{dim} \operatorname{Ker} S$. Show that $S$ and $T$ have the same Jordan form.\\
+(c) Show that there are nilpotent linear transformations $T, S: \mathbb{C}^{8} \rightarrow \mathbb{C}^{8}$ such that $S$ and $T$ have the same minimal polynomial and $\operatorname{dim} \operatorname{Ker} T=\operatorname{dim} \operatorname{Ker} S$, but $S$ and $T$ have different Jordan forms. That is, part (b) is false if 6 is replaced by 8 .\\
+L5. Let $\mathbb{F}$ be a field and let
+
+$$
+0 \longrightarrow V_{1} \xrightarrow{T_{1}} V_{2} \xrightarrow{T_{2}} \cdots \xrightarrow{T_{n}} V_{n+1} \longrightarrow 0
+$$
+
+be an exact sequence of finite-dimensional vector spaces and linear transformations over $\mathbb{F}$. This means that $T_{1}$ is injective, $T_{n}$ is surjective, and $\operatorname{Im}\left(T_{i}\right)=\operatorname{Ker}\left(T_{i+1}\right)$ for $1 \leq i \leq n-1$. Show that
+
+$$
+\sum_{i=1}^{n-1}(-1)^{i+1} \operatorname{dim} V_{i}=0
+$$
+
+L6. Let $S$ and $T$ be linear transformations between finite-dimensional vector spaces $V$ and $W$ over the field $\mathbb{F}$. Show that $\operatorname{Ker} S=\operatorname{Ker} T$ if and only if there is an invertible operator $U$ on $W$ such that $S=U T$.\\
+L7. Let $V$ be a finite-dimensional real vector space and let $T: V \rightarrow V$ be a nilpotent transformation (i.e. $T^{j}=0$ for some positive integer $j$ ).\\
+(a) Find the eigenvalues of $T$.\\
+(b) Is $I-T$ invertible, where $I: V \rightarrow V$ is the identity transformation? Explain fully.\\
+(c) Give an example of two non-similar linear transformations $A$ and $B$ on the same finite dimensional vector space $V$, having identical characteristic polynomials and identical minimal polynomials.\\
+L8. Let $V$ be the vector space of polynomials $p(X) \in \mathbb{C}[X]$ of degree $\leq 4$. Define a linear transformation $T: V \rightarrow V$ by $T(p(X))=p^{\prime \prime}(X)$ (the second derivative of the polynomial $p(X)$ ). Compute the characteristic polynomial, minimal polynomial, and Jordan canonical form of the linear transformation $T$.\\
+L9. Let $p$ be a prime number, $\mathbb{F}_{p}=\mathbb{Z} / p \mathbb{Z}$ the field with $p$ elements, $V=\mathbb{F}_{p}^{4}$ (a 4-dimensional vector space over $\mathbb{F}_{p}$ ), and $W$ the subspace of $V$ spanned by the three vectors $\mathbf{a}_{1}=(1,2,2,1), \mathbf{a}_{2}=(0,2,0,1)$, and $\mathbf{a}_{3}=(-2,0,-4,3)$. Find $\operatorname{dim}_{\mathbb{F}_{p}} W$. (Note that this dimension depends on $p$.)
