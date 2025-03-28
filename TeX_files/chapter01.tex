@@ -32,7 +32,7 @@ Case 2: The group is abelian. If there is an element of order not equal to 2, th
 	\item[(a)] Show that $G$ has order $\left(p^2-1\right)\left(p^2-p\right)$.
 	\item[(b)] Show that for $p=2$ the group $G$ is isomorphic to the symmetric group $S_3$.
 \end{itemize}
-\soln
+\soln Let $G=\mathrm{GL}\left(2, \mathbb{F}_p\right)$.\\
 \begin{itemize}
 	\item[(a)] Choosing a invertible $ 2\times2 $ matrix is equivalent to choosing two linearly independent vectors(which will be the columns of the matrix) from the space $ \mathbb{F}_p^2 $. We can choose a nonzero vector in $\mid \mathbb{F}_p^2\mid -1 =  p^2-1 $ ways and the second vector can't be a multiple of the first vector(there are $ p $ of them). So, we can choose the second vector in $ p^2-p $ ways.
 	\item[(b)] The group is of order $ 6 $. We just have to show that it is not abelian. Show for the elements $a= \matr{0}{1}{1}{0} $ and $b= \matr{1}{1}{0}{1} $. $ ab=\matr{0}{1}{1}{1}, ba= \matr{1}{1}{1}{0}. $
@@ -54,7 +54,15 @@ So, for $ N=247 $ the order of the group is $ 12\times 18=216 $. And the structu
 	\item[(b)] True or False (with justification): $G \cong U \times D$
 \end{itemize}
 \soln
+Let's look at the structure of $ U $. We have $ \matr{1}{x}{0}{1}\matr{1}{y}{0}{1}= \matr{1}{x+y}{0}{1} $. So, $ U $ is Abelian.
 
+\begin{itemize}
+	\item[(a)] Let $ g=\matr{a}{b}{0}{d} \in G$ and $ u=\matr{1}{x}{0}{1} \in U $. $ gug^{-1}=\matr{1}{\dfrac{ax}{d}}{0}{1} \in U$. So, $ U\unlhd G $.\\
+	Let $ \phi:G\to D $ be a map $ \matr{a}{b}{0}{d}\mapsto \matr{a}{0}{0}{d} $.\\
+	$ \matr{a_1}{b_1}{0}{d_1}\matr{a_2}{b_2}{0}{d_2}= \matr{a_1a_2}{a_1b_2 + b_1d_2}{0}{d_1d_2}\mapsto \matr{a_1a_2}{0}{0}{d_1d_2} $ is a homomorphism with kernel $ U $ and image $ D $.
+	\item[(b)] $ G $ is nonabelian but the RHS is Abelian.\\
+	$ \matr{1}{1}{0}{1}\matr{1}{1}{0}{2}=\matr{1}{3}{0}{2} \ne \matr{1}{1}{0}{2}\matr{1}{1}{0}{1}= \matr{1}{2}{0}{2} $.
+\end{itemize}
 \qed\\
 \textbf{G7:} Let $G$ be a group and let $Z$ denote the center of $G$.
 \begin{itemize}
@@ -62,7 +70,13 @@ So, for $ N=247 $ the order of the group is $ 12\times 18=216 $. And the structu
 	\item[(b)] Show that if $G / Z$ is cyclic, then $G$ must be abellan.
 	\item[(c)] Let $D_6$ be the dihedral group of order 6 . Find the center of $D_6$.
 \end{itemize}
-\soln
+\soln Let $ G $ be a group with center $ Z $.\\
+\begin{itemize}
+	\item[(a)] $ gzg^{-1}= zgg^{-1}=z\in Z $.
+	\item[(b)] Let $ G/Z = C= <a>  $.\\
+	 Let $ g_1,g_2\in G $. $ g_i Z= a^{k_i}Z \implies g_i = a^{k_i} z_i' z_i^{-1}  $. $ g_1g_2 = g_2g_1 = a^{k_1+k_2}z_1z_2z_1'z_2' $.
+	 \item[(c)] $ D_6 = \{e,r,r^2,s,sr,sr^2\} $, $ rs=sr^2\ne sr $,$ r^2\cdot rs= s$, $ rs\cdot r^2 = ssrsr^2=sr^4=sr$. So, $ Z=\{e\} $.
+\end{itemize}
 \qed\\
 
 \textbf{G8:} List all abelian groups of order 8 up to isomorphism. Identify which group on your list is isomorphic to each of the following groups of order 8 . Justify your answer.
@@ -71,14 +85,23 @@ So, for $ N=247 $ the order of the group is $ 12\times 18=216 $. And the structu
 	\item[(b)] The roots of the equation $z^8-1=0 \mathrm{in} \mathrm{C}$.
 	\item[(c)] $\mathbb{F}_8^{+}=$the additive group of the field $\mathbb{F}_8$ with eight elements.
 \end{itemize}
-\soln
+\soln We use structure theorem for finitely generated Abelian group. $ G $ is isomorphic to one of these three groups. $ \Z_8, \Z_2\times\Z_4 $ or $ \Z_2\times \Z_2\times \Z_2 $.\\
+\begin{itemize}
+	\item[(a)]  $ (\Z/ 15\Z)^\times = (\Z/3\Z)^\times \times (\Z/5\Z)^\times = \Z_2\times\Z_4 $.
+	\item[(b)] $ \mu_8 = e^{\dfrac{2\pi i}{8}} $ has order 8. So, it's isomorphic to $ \Z/8\Z $.
+	\item[(c)] The field is of char $ 2 $. So, each element has order $ 2 $. So, it's isomorphic to $ \Z_2\times \Z_2\times \Z_2 $.
+\end{itemize}
 \qed\\
 \textbf{G9:} Let $S_9$ denote the symmetric group on 9 elements.
 \begin{itemize}
 	\item[(a)] Find an element of $S_9$ of order 20.
 	\item[(b)] Show that there is no element of $S_9$ of order 18 .
 \end{itemize}
-\soln
+\soln Order of an element is the l.c.m. of the cycle lengths. 
+\begin{itemize}
+	\item[(a)] $ (12345)(6789) $.
+	\item[(b)] We can't partition 9 into parts such that the lcm is $ 20 $.
+\end{itemize}
 \qed\\
 
 \textbf{G10:} $G=\left\{\left[\begin{array}{cc}a & b \\ 0 & a^{-1}\end{array}\right]: a, b \in \mathbb{R}, a>0\right\}$ and $N=\left\{\left[\begin{array}{ll}1 & c \\ 0 & 1\end{array}\right]: c \in \mathbb{R}\right\}$ are groups under matrix multiplication.
