@@ -1,4 +1,8 @@
 \chapter{Group Theory}
+\section{Brief Discussion on Group of Units modulo N}\label{unit}
+We will discuss a bit about the group of units. Let  $ N= 2^k p_1^{k_1}\cdots p_n^{k_n} $ where $ p_i $s are odd primes. By CRT, we have $ (\Z_N)= (\Z_{2^k})\times (\Z_{p_1^{k_1}}) \times \cdots\times (\Z_{p_n^{k_n}}) $. We have the unit group $$ (\Z_N)^\times= (\Z_{2^k})^\times\times (\Z_{p_1^{k_1}})^\times \times \cdots\times (\Z_{p_n^{k_n}})^\times $$. For odd prime powers, we have that the unit group is cyclic $ (\Z_{p^{k}})^\times = \Z_{p^k-p^{k-1}} $.\\
+For $ 2^k $ we have $ (\Z_{2})^\times = \Z_1 $ the trivial group, $ (\Z_{4})^\times = \Z_2 $ cyclic and $ (\Z_{2^k})^\times = \Z_2 \times \Z_{2^{k-2}} $ noncyclic groups for $ 2^k\ge 8 $. So the only time where the unit group is cyclic is $ N=1,2,4,p^k, 2p^k $ where $ p $ is an odd prime.\\
+\section{Solution}
 \textbf{G1}: Let $ H $ be a normal subgroup of a group $ G $, and let $ K $ be a subgroup of $ H $.
 \begin{itemize}
 	\item[(a)] Give an example of this situation where $ K $ is not a normal subgroup of $ G $,
@@ -43,9 +47,7 @@ Case 2: The group is abelian. If there is an element of order not equal to 2, th
 	\item[(a)] Determine the order of $G$ (note that $247=13 \cdot 19$ ).
 	\item[(b)] Determine the structure of $G$ (as in the classification theorem for finitely generated abelian groups). Hint: Use the Chinese Remainder Theorem.
 \end{itemize}
-\soln
-We will discuss a bit about the group of units. Let  $ N= 2^k p_1^{k_1}\cdots p_n^{k_n} $ where $ p_i $s are odd primes. By CRT, we have $ (\Z_N)= (\Z_{2^k})\times (\Z_{p_1^{k_1}}) \times \cdots\times (\Z_{p_n^{k_n}}) $. We have the unit group $$ (\Z_N)^\times= (\Z_{2^k})^\times\times (\Z_{p_1^{k_1}})^\times \times \cdots\times (\Z_{p_n^{k_n}})^\times $$. For odd prime powers, we have that the unit group is cyclic $ (\Z_{p^{k}})^\times = \Z_{p^k-p^{k-1}} $.\\
-For $ 2^k $ we have $ (\Z_{2})^\times = \Z_1 $ the trivial group, $ (\Z_{4})^\times = \Z_2 $ cyclic and $ (\Z_{2^k})^\times = \Z_2 \times \Z_{2^{k-2}} $ noncyclic groups for $ 2^k\ge 8 $. So the only time where the unit group is cyclic is $ N=1,2,4,p^k, 2p^k $ where $ p $ is an odd prime.\\
+\soln See Section \ref{unit}.\\
 So, for $ N=247 $ the order of the group is $ 12\times 18=216 $. And the structure of $ G $ is $ \Z_{12} \times \Z_{18}= \Z_{3}\times \Z_4 \times \Z_9 \times \Z_2 = \Z_{6}\times \Z_{36}$.\\
 \qed\\
 \textbf{G6:} Let $G$ be the group of invertible $2 \times 2$ upper triangular matrices with entries in $\mathbb{R}$. Let $D \subseteq G$ be the subgroup of invertible diagonal matrices and let $U \subseteq G$ be the subgroup of matrices of the form $\left[\begin{array}{ll}1 & x \\ 0 & 1\end{array}\right]$ where $x \in \mathbb{R}$ is arbitrary.
@@ -82,7 +84,7 @@ Let's look at the structure of $ U $. We have $ \matr{1}{x}{0}{1}\matr{1}{y}{0}{
 \textbf{G8:} List all abelian groups of order 8 up to isomorphism. Identify which group on your list is isomorphic to each of the following groups of order 8 . Justify your answer.
 \begin{itemize}
 	\item[(a)] $(Z / 15 Z)^*=$ the group of units of the ring $Z / 15 Z$.
-	\item[(b)] The roots of the equation $z^8-1=0 \mathrm{in} \mathrm{C}$.
+	\item[(b)] The roots of the equation $z^8-1=0 \text{ in } \mathbb{C}$.
 	\item[(c)] $\mathbb{F}_8^{+}=$the additive group of the field $\mathbb{F}_8$ with eight elements.
 \end{itemize}
 \soln We use structure theorem for finitely generated Abelian group. $ G $ is isomorphic to one of these three groups. $ \Z_8, \Z_2\times\Z_4 $ or $ \Z_2\times \Z_2\times \Z_2 $.\\
@@ -109,17 +111,39 @@ Let's look at the structure of $ U $. We have $ \matr{1}{x}{0}{1}\matr{1}{y}{0}{
 	\item[(a)] Show that $N$ is a normal subgroup of $G$ and that $G / N$ is isomorphic to the multiplicative group of positive real numbers $\mathbb{R}^{+}$.
 	\item[(b)] Find a group $N^{\prime}$ with $N \subseteq N^{\prime} \subseteq G$, with both inclusions proper, or prove that no such $N^{\prime}$ exists.
 \end{itemize}
+\soln 
+\qed\\
 
 
-
-G11. Let $R$ be a commutative ring with identity, and let $H$ be a subgroup of the group of units $R^{*}$ of $R$. Let $N=\{A \in \mathrm{GL}(n, R): \operatorname{det} A \in H\}$. Prove that $N$ is a normal subgroup of $\operatorname{GL}(n, R)$ and $\operatorname{GL}(n, R) / N \cong R^{*} / H$.\\
-G11. Let $G$ be a group of order $2 p$ where $p$ is an odd prime. If $G$ has a normal subgroup of order 2 , show that $G$ is cyclic.\\
+\textbf{G11.1:}Let $R$ be a commutative ring with identity, and let $H$ be a subgroup of the group of units $R^{*}$ of $R$. Let $N=\{A \in \mathrm{GL}(n, R): \operatorname{det} A \in H\}$. Prove that $N$ is a normal subgroup of $\operatorname{GL}(n, R)$ and $\operatorname{GL}(n, R) / N \cong R^{*} / H$.\\
+\textbf{G11.2:} Let $G$ be a group of order $2 p$ where $p$ is an odd prime. If $G$ has a normal subgroup of order 2 , show that $G$ is cyclic.\\
+\soln
+\qed\\
 G12. Prove that every finitely generated subgroup of the additive group of rational numbers is cyclic.\\
+\soln
+\qed\\
+
 G13. Prove that any finite group of order $n$ is isomorphic to a subgroup of the orthogonal group $\mathrm{O}(n, \mathbb{R})$.\\
+\soln
+\qed\\
+
 G14. Prove that the group $\operatorname{GL}(2, \mathbb{R})$ has cyclic subgroups of all orders $n \in \mathbb{N}$. (Hint: The set of matrices $\left[\begin{array}{cc}a & b \\ -b & a\end{array}\right]$ where $a$ and $b$ are arbitrary real numbers, is a subring of the ring of $2 \times 2$ matrices which is isomorphic to $\mathbb{C}$.)\\
+\soln
+\qed\\
+
 G15. Let $H_{1}$ be the subgroup of $\mathbb{Z}^{2}$ generated by $\{(1,3),(1,7)\}$ and let $H_{2}$ be the subgroup of $\mathbb{Z}^{2}$ generated by $\{(2,4),(2,6)\}$. Are the quotient groups $G_{1}=\mathbb{Z}^{2} / H_{1}$ and $G_{2}=\mathbb{Z}^{2} / H_{2}$ isomorphic?\\
+\soln
+\qed\\
+
 G16. Let $H$ and $N$ be subgroups of a group $G$ with $N$ normal. Prove that $H N=N H$ and that this set is a subgroup of $G$.\\
+
+\soln
+\qed\\
+
 G17. Let $G=\mathbb{Z} / 2 \mathbb{Z} \oplus \mathbb{Z} / 6 \mathbb{Z} \oplus \mathbb{Z} / 30 \mathbb{Z}$ and let $H=\mathbb{Z} / 4 \mathbb{Z} \oplus \mathbb{Z} / 20 \mathbb{Z}$. Express the abelian group Hom $(G, H)$ of homomorphisms from $G$ to $H$ as a direct sum of cyclic groups.\\
+\soln
+\qed\\
+
 G18. Let $G$ be an abelian group generated by $x, y, z$ subject to the relations
 
 $$
@@ -133,6 +157,9 @@ $$
 (a) Write $G$ as a product of two cyclic groups.\\
 (b) Write $G$ as a direct product of cyclic groups of prime power order.\\
 (c) How many elements of $G$ have order 2?
+
+\soln
+\qed\\
 
 G19. Let $\mathbb{F}$ be a field and let
 
@@ -148,10 +175,23 @@ $$
 (b) If $|\mathbb{F}|=q$, what is $|H(\mathbb{F})|$ ?\\
 (c) Find the order of all elements of $H(\mathbb{Z} / 2 \mathbb{Z})$.\\
 (d) Verify that $H(\mathbb{Z} / 2 \mathbb{Z}) \cong D_{8}$, the dihedral group of order 8 .
+\soln
+\qed\\
 
 G20. Let $R$ be an integral domain and let $G$ be a finite subgroup of $R^{*}$, the group of units of $R$. Prove that $G$ is cyclic.\\
+\soln
+\qed\\
+
 G21. Let $\alpha$ and $\beta$ be conjugate elements of the symmetric group $S_{n}$. Suppose that $\alpha$ fixes at least two symbols. Prove that $\alpha$ and $\beta$ are conjugate via an element $\gamma$ of the alternating group $A_{n}$.\\
+
+\soln
+\qed\\
+
 G22. Are $(13)(25)$ and $(12)(45)$ conjugate in $S_{5}$ ? If you say "yes", find an element giving the conjugation; if you say "no", prove your answer.\\
+
+\soln
+\qed\\
+
 G23. (a) Suppose that $G$ is a group and $a, b \in G$ are elements such that the order of $a$ is $m$ and the order of $b$ is $n$. If $a b=b a$ and if $m$ and $n$ are relatively prime, show that the order of $a b$ is $m n$.\\
 (b) Prove that an abelian group of order $p q$, where $p$ and $q$ are distinct primes, must be cyclic.\\
 (c) If $m$ and $n$ are relatively prime, must a group of order $m n$ be cyclic? Justify your answer.
