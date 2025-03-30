@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.24)  29 MAR 2025 22:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.24)  30 MAR 2025 19:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -783,42 +783,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--120
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--123
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+Underfull \hbox (badness 10000) in paragraph at lines 123--125
 
  []
 
@@ -858,7 +858,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--139
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
 
@@ -872,13 +872,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 162--163
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
  []
 
@@ -898,7 +898,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--186
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
  []
 
@@ -908,7 +908,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 190--191
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--194
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
 
  []
 
@@ -922,22 +927,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 193--194
 
 ]
 Chapter 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
-[7] [8]) [9]
+[8] [9]) [10]
 \openout2 = `./TeX_files/chapter03.aux'.
 
- (TeX_files/chapter03.tex [10
-
-
-
-
-]
+ (TeX_files/chapter03.tex
 Chapter 3.
-[11]) [12]
+[11
+
+
+
+
+]) [12]
 \openout2 = `./TeX_files/chapter04.aux'.
 
  (TeX_files/chapter04.tex
@@ -959,39 +964,40 @@ L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 15438 strings out of 475248
- 319526 string characters out of 5756869
+ 15447 strings out of 475248
+ 319738 string characters out of 5756869
  1948785 words of memory out of 5000000
- 36640 multiletter control sequences out of 15000+600000
- 570201 words of font info for 83 fonts, out of 8000000 for 9000
+ 36648 multiletter control sequences out of 15000+600000
+ 570536 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,11n,97p,690b,210s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmbx10.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmbx12.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Ayanava/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Ayanava/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Ayanava/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/
-Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
-<C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmr10.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmr12.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmr17.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Ayanava/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Ayanava/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/Ayanava/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users
-/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb
-><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmsy7.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmti10.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/symbols/msam10.pfb><C:/Users/Ayanava/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Ayanava/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on main.pdf (18 pages, 310906 bytes).
+ <C:\Users\Ayanava\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
+rm1000.pk><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmbx10.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Ayanava/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Ayanava/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Ay
+anava/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C
+:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+mi7.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmr10.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Ayanava/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Ayanava/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Ayanava/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/Ay
+anava/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+msy5.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmsy7.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmti10.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Ayanava/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Ayanava
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on main.pdf (18 pages, 317217 bytes).
 PDF statistics:
- 163 PDF objects out of 1000 (max. 8388607)
+ 168 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

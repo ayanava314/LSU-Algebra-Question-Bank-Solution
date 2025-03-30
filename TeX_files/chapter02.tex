@@ -3,7 +3,41 @@
 \setcounter{table}{0}
 \setcounter{figure}{0}
 
-\section{Brief Discussion on Bezout Domain, PID, UFD}
+\section{Brief Discussion on Bezout Domain, PID, UFD, gcd, lcm}
+The concept of gcd and lcm can be generalized to UFDs. We use the definition $ gcd(a,b)=d $ iff $ d $ divides $ a,b $ and $ x\mid a$, $x\mid b \implies x\mid d $. Similarly, $ a,b $ divides the lcm and  $ a\mid x $, $ b\mid x $ implies $ lcm(a,b)\mid x $. We can show that $ ab= gcd(a,b)lcm(a,b) $. 
+\begin{theorem}
+	$ ab= gcd(a,b)lcm(a,b) $ in UFD.
+\end{theorem}
+\begin{proof}
+	Let $ gcd(a,b)=d $. $ a=da',b=db' $. We have some results from the definition of gcd.\\
+	$ gcd(a',b')=1 $ since $ u\mid a',b' \implies a'=ux_1, b'=ux_2 \implies a= dux_1, b= dux_2 \implies du\mid a,b\implies du\mid d \implies u$ is unit.\\
+	So, enough to prove $ lcm(a,b) = da'b' $. Since both $ a,b $ divides $ da'b' $ and $ a,b \mid x \implies x=da'k_1=db'k_2$ By uniqueness of factors $ a'k_1= b'k_2 $. $ gcd(a',b')=1 \implies b'\mid k_1 $ by irreducible factor decomposition argument. So, $ x=da'b'k $ i.e. $ da'b' $ divides $ x $. So, $ ab=d^2a'b'= gcd\cdot lcm $ 
+\end{proof}
+\begin{definition}
+	A integral domain is called Bezout domain if sum of any two principal ideals is principal. i.e. $ (a,b)=(d) $ for any $ a,b\in R $. The Bezout's identity holds for this case: $ d= ua+vb $ for some $ u,v\in R $. In general any finitely generated ideal is principal.
+\end{definition}
+
+A Bezout domain need not be Noetherian or UFD. For example ring of Algebraic integers is not UFD(any element is not irreducible since it's square root is also algebraic integer). Any PID is by definition Bezout domain. If $ R $ is a Bezout domain then TFAE:
+\begin{itemize}
+	\item $ R $ is PID
+	\item $ R $ is Noetherian 
+	\item $ R $ is UFD
+\end{itemize}
+
+So, a Bezout UFD is a PID. Example of non-Bezout UFD is $ \Z[x] $. Consider $ (2,x) $.
+
+Now we will discuss a little bit about properties that hold in a PID(not necessarily in UFD):
+\begin{theorem}
+	$ R $ is a PID. $ (a)+(b)=(a,b)= (gcd(a,b)) $ and $ (a)\cap(b)= (lcm(a,b)) $. 
+\end{theorem}
+\begin{proof}
+	One side inclusion is true for general UFDs.\\
+	Since $ gcd(a,b)\mid a,b $, $ a,b\in (gcd(a,b)) \implies (a,b)\subseteq (gcd(a,b)) $.\\
+	On the other hand, let $ (a,b)=(d) $ by definition of PID. $ a,b\in (d) \implies d\mid a$ ,  $d\mid b $. So, by definition of gcd, $ d\mid gcd(a,b) \implies (gcd(a,b))\subseteq (d)$. This side is not true for UFD in general. Take $ gcd(2,x)=1 $ in $ \Z[x] $.\\
+	This also gives rise to the famous Bezout's identity $ gcd(a,b)= ax+by $ for some $ x,y\in R $.\\
+	$ a,b\mid lcm(a,b) \implies lcm(a,b)\subseteq (a), (b)$. And $ (a)\cap(b)=(m)\implies a,b\mid m  \implies lcm(a,b)\mid m \implies (m) \subseteq (lcm(a,b))$. The second step uses the property of PID.
+\end{proof}
+\newpage
 \section{Solution}
 \textbf{R1:} Let $R=\mathbb{Z}[\sqrt{-3}]=\{a+b \sqrt{-3}: a, b \in \mathbb{Z}\}$.\\
 (a) Why is $R$ an integral domain?\\
