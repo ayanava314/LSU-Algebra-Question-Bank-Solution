@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.24)  30 MAR 2025 19:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.24)  2 APR 2025 20:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -808,97 +808,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--110
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--122
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--125
+Underfull \hbox (badness 10000) in paragraph at lines 135--137
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
-
- []
-
-
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--144
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
+Underfull \hbox (badness 10000) in paragraph at lines 146--150
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
+Underfull \hbox (badness 10000) in paragraph at lines 159--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--188
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--170
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
 
@@ -908,26 +883,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 190--191
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--193
+Underfull \hbox (badness 10000) in paragraph at lines 191--192
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
 
  []
 
-[4]) [5]
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--325
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
+
+ []
+
+[5]) [6]
 \openout2 = `./TeX_files/chapter02.aux'.
 
- (TeX_files/chapter02.tex [6
+ (TeX_files/chapter02.tex
+Chapter 2.
+[7
 
 
 
 
 ]
-Chapter 2.
-[7]
 Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
@@ -964,11 +974,11 @@ L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 15447 strings out of 475248
- 319738 string characters out of 5756869
- 1948785 words of memory out of 5000000
- 36648 multiletter control sequences out of 15000+600000
- 570536 words of font info for 84 fonts, out of 8000000 for 9000
+ 15452 strings out of 475248
+ 319800 string characters out of 5756869
+ 1957785 words of memory out of 5000000
+ 36652 multiletter control sequences out of 15000+600000
+ 571040 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,11n,97p,690b,210s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Ayanava\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
@@ -977,27 +987,29 @@ sfonts/cm/cmbx10.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Ayanava/AppData/Local/Pr
 ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Ayanava/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Ay
-anava/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C
-:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-mi7.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr10.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Ayanava/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Ayanava/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Ayanava/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/Ay
-anava/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-msy5.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmsy7.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmti10.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Ayanava/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/Ayanava
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on main.pdf (18 pages, 317217 bytes).
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmitt10.pfb><C:/Users/A
+yanava/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+<C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmmi5.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmmi7.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmr10.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Ayanava/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Ayanava/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Ayanava/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/A
+yanava/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb>
+<C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmsy5.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Ayanava/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Ayanava/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/U
+sers/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/
+msbm7.pfb>
+Output written on main.pdf (18 pages, 331747 bytes).
 PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
+ 173 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
