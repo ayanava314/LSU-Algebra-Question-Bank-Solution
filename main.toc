@@ -1,8 +1,8 @@
 \contentsline {chapter}{\numberline {1}Group Theory}{1}{}%
 \contentsline {section}{\numberline {1.1}Brief Discussion on Group of Units modulo N}{1}{}%
 \contentsline {section}{\numberline {1.2}Solution}{1}{}%
-\contentsline {chapter}{\numberline {2}Ring Theory}{7}{}%
-\contentsline {section}{\numberline {2.1}Brief Discussion on Bezout Domain, PID, UFD, gcd, lcm}{7}{}%
-\contentsline {section}{\numberline {2.2}Solution}{8}{}%
-\contentsline {chapter}{\numberline {3}Module Theory}{11}{}%
-\contentsline {chapter}{\numberline {4}Linear Algebra}{13}{}%
+\contentsline {chapter}{\numberline {2}Ring Theory}{9}{}%
+\contentsline {section}{\numberline {2.1}Brief Discussion on Bezout Domain, PID, UFD, gcd, lcm}{9}{}%
+\contentsline {section}{\numberline {2.2}Solution}{10}{}%
+\contentsline {chapter}{\numberline {3}Module Theory}{13}{}%
+\contentsline {chapter}{\numberline {4}Linear Algebra}{15}{}%

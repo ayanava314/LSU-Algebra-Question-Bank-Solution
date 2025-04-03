@@ -323,38 +323,119 @@ Inverse of $ \begin{pmatrix}
 Note that this result is true for Fields. Any subgroup of units of integral domain is a subgroup of it's quotient field's units. Thus the result follows. In general it follows from the roots of the polynomial $ x^n-1 $ in Field or integral domain(at most $ n $ many roots).
 \qed\\
 
-G21. Let $\alpha$ and $\beta$ be conjugate elements of the symmetric group $S_{n}$. Suppose that $\alpha$ fixes at least two symbols. Prove that $\alpha$ and $\beta$ are conjugate via an element $\gamma$ of the alternating group $A_{n}$.\\
+\textbf{G21:} Let $\alpha$ and $\beta$ be conjugate elements of the symmetric group $S_{n}$. Suppose that $\alpha$ fixes at least two symbols. Prove that $\alpha$ and $\beta$ are conjugate via an element $\gamma$ of the alternating group $A_{n}$.\\
 
+\soln
+$ \alpha,\beta  $ has same cycle types. Let $ \alpha $ fix $ i,j $. And $ \tau $ be the conjugating element such that $ \tau\alpha\tau^{-1} =\beta$. Then $ \tau(i),\tau(j) $ is fixed by $ \beta $. Let us assume, $ \tau $ is not in $ A_n $. Then $ \tau (i,j)\in A_n $ and gives the same conjugation. 
+\qed\\
+
+\textbf{G22:} Are $(13)(25)$ and $(12)(45)$ conjugate in $S_{5}$ ? If you say "yes", find an element giving the conjugation; if you say "no", prove your answer.\\
+
+\soln
+They have the same cycle type. So, they are conjugate by the element $ (3 2)(2 4) $.
+\qed\\
+
+\textbf{G23:} 
+\begin{itemize}
+	\item[(a)] Suppose that $G$ is a group and $a, b \in G$ are elements such that the order of $a$ is $m$ and the order of $b$ is $n$. If $a b=b a$ and if $m$ and $n$ are relatively prime, show that the order of $a b$ is $m n$.
+	\item[(b)] Prove that an abelian group of order $p q$, where $p$ and $q$ are distinct primes, must be cyclic.
+	\item[(c)] If $m$ and $n$ are relatively prime, must a group of order $m n$ be cyclic? Justify your answer.
+\end{itemize}
+\soln
+\begin{itemize}
+	\item[(a)] $ (ab)^{mn}= a^{mn}b^{mn}=e $. So, $ o(ab)\mid mn$.\\
+	$ e=(ab)^{o(a,b)n}=a^{o(a,b)n}b^{o(a,b),n}=a^{o(a,b)n} \implies m\mid o(a,b)n\implies m\mid o(a,b)$.\\
+	Similarly, $ n\mid(o(a,b)) \implies mn=o(a,b)$.
+	\item[(b)] By the previous proof, if $ a $ is of order $ p $ and $ b $ is of order $ q $(by Cauchy), $ ab $ is of order $ pq $ and it generates the group.
+	\item[(c)] No. Example $ S_3 $. 
+\end{itemize}
+\qed\\
+
+\textbf{G24:} Let $\varphi: G \rightarrow H$ be a surjective group homomorphism and let $N$ be a normal subgroup of $G$. Show that $\varphi(N)$ is a normal subgroup of $H$. What happens if $\varphi$ is not surjective? Explain your answer.\\
+\soln
+Let $ h\in H, n'\in \varphi(N) $. \\
+Surjective implies $ h=\varphi(g), n'=\varphi(n) \implies hn'h^{-1}=\varphi(gng^{-1})=\varphi(n_1)\in \varphi(N)$ where $ n_1\in N $. \\
+Let $ \phi:\Z_2\to S_3 $ where $ a\mapsto (12) $. $ \phi(Z_2)=\{e,(12)\} $ is not normal in $ S_3 $.
+\qed\\
+
+\textbf{G25:} Let $Q=\{1,-1, i,-i, j,-j, k,-k\}$ be the quaternion group and $N=\{1,-1, i,-i\}$. Show that $N$ is a normal subgroup of $Q$. Describe the quotient group $Q / N$.\\
+\soln
+$ N $ is of index 2 implies normal(We can show explicitely too). $ Q/N $ is of order $ 2 $ i.e. is isomorphic to $ \Z_2 $. 
+\qed\\
+
+\textbf{G26:} Let $G$ be a finite abelian group of odd order. If $\varphi: G \rightarrow G$ is defined by $\varphi(a)=a^{2}$ for all $a \in G$, show that $\varphi$ is an isomorphism. Generalize this result.\\
+\soln
+$ \varphi(ab)=abab=aabb=\varphi(a)\varphi(b) $ proves homomorphism.\\
+$ \varphi(x)=x^2=e \implies o(x)\mid 2$ and $ o(x)\mid o(G) \implies o(x)\mid gcd(2,o(G))=1 \implies x=e $ proves isomorphism. \\
+We can generalize this result to the power $ m $ and order of group $ n $ where $ (m,n)=1 $.
+\qed\\
+
+\textbf{G27:} Prove that the direct product of two infinite cyclic groups is not cyclic.\\
+
+\soln
+Let $ G =<a>,H=<b>$ be two infinite cyclic group. Assume $ (a^m,b^n) $ generated $ G\times H $. $ (a^m,b^n)^{k_1}= (a,e) $, $ (a^m,b^n)^{k_2}= (e,b) $ implies $ m,n=\pm 1 $ but that gives rise to a contradiction.
+\qed\\
+
+\textbf{G28:} Prove that if a group has exactly one element of order two, then that element is in the center of the group.\\
+\soln
+Let $ x \in G$ be the only element of order $ 2 $. Let $ a\in G $ be arbitary,  $ axa^{-1}= g $. $ g^2 = ax^2a^{-1}=e $ i.e. $ g=e $ or $ g=x $. The first case gives a contradiction, the second gives $ x\in Z(G) $.
+\qed\\
+
+\textbf{G29:} Prove that a group of order 30 can have at most 7 subgroups of order 5 .
+\soln
+Let $ H_1,H_2 $ be two different subgroup of order 5. $ H_1\cap H_2 = \{e\}$ since nontrivial intersection implies equal subgroups, so, their nonidentity elements must be different. i.e. $ 1+4\cdot k $ must be less than or equal to $ 30 $, where $ k $ is the no. of different subgroup. This implies $ k\le 7 $.(Syllow implies $ n_5=1,6 $)
+\qed\\
+
+\textbf{G30:} Let $H=\{1,-1, i,-i\}$ be the subgroup of the multiplicative group $G=\mathbb{C}^{*}=\mathbb{C} \backslash\{0\}$ consisting of the fourth roots of unity. Describe the cosets of $H$ in $G$, and show that the quotient $G / H$ is isomorphic to $G$.\\
 \soln
 \qed\\
 
-G22. Are $(13)(25)$ and $(12)(45)$ conjugate in $S_{5}$ ? If you say "yes", find an element giving the conjugation; if you say "no", prove your answer.\\
+\textbf{G31:} 
+\begin{itemize}
+	\item[(a)] Show that the set of all elements of finite order in an abelian group form a subgroup.
+	\item[(b)] Let $G=\mathbb{R} / \mathbb{Z}$. Show that the set of elements of $G$ of finite order is the subgroup $\mathbb{Q} / \mathbb{Z}$.
+\end{itemize}
+\soln $ G  $ is Abelian.\\
 
+\begin{itemize}
+	\item[(a)] Let $ H\le G $ be the set containing finite order elements. Let $ h_1,h^2\in H $. $ (h_1h_2)^{o(h_1)o(h_2)}=h_1^{o(h_1)o(h_2)}h_2^{o(h_1)o(h_2)}=e $ i.e. $ h_1h_2 \in H$. Inverse has the same order.
+	\item[(b)] Let $ H\le G $ be the desired subgroup. $ \dfrac{p}{q} + \Z $ has order $ q $. i.e. $ \Q/\Z\subseteq H $.\\
+	Let $ r+ \Z $ be of finite order implies $ nr + \Z =\Z $ implies $ nr\in \Z $ implies $ nr = p\in \Z $ implies $ r= \dfrac{p}{n} \in \Q$.
+\end{itemize}
+\qed\\
+
+\textbf{G32:} Determine all the finite groups which have exactly 3 conjugacy classes.\\
 \soln
 \qed\\
 
-G23. (a) Suppose that $G$ is a group and $a, b \in G$ are elements such that the order of $a$ is $m$ and the order of $b$ is $n$. If $a b=b a$ and if $m$ and $n$ are relatively prime, show that the order of $a b$ is $m n$.\\
-(b) Prove that an abelian group of order $p q$, where $p$ and $q$ are distinct primes, must be cyclic.\\
-(c) If $m$ and $n$ are relatively prime, must a group of order $m n$ be cyclic? Justify your answer.
+\textbf{G33:} \begin{itemize}
+	\item[(a)] Find a Sylow 2-subgroup of $S_{4}$ and identify its isomorphism type.
+	\item[(b)] How many Sylow 2-subgroups of $S_{4}$ are there? Please justify your answer.
+\end{itemize}
+\soln
+\qed\\
 
-G24. Let $\varphi: G \rightarrow H$ be a surjective group homomorphism and let $N$ be a normal subgroup of $G$. Show that $\varphi(N)$ is a normal subgroup of $H$. What happens if $\varphi$ is not surjective? Explain your answer.\\
-G25. Let $Q=\{1,-1, i,-i, j,-j, k,-k\}$ be the quaternion group and $N=\{1,-1, i,-i\}$. Show that $N$ is a normal subgroup of $Q$. Describe the quotient group $Q / N$.\\
-G26. Let $G$ be a finite abelian group of odd order. If $\varphi: G \rightarrow G$ is defined by $\varphi(a)=a^{2}$ for all $a \in G$, show that $\varphi$ is an isomorphism. Generalize this result.\\
-G27. Prove that the direct product of two infinite cyclic groups is not cyclic.\\
-G28. Prove that if a group has exactly one element of order two, then that element is in the center of the group.\\
-G29. Prove that a group of order 30 can have at most 7 subgroups of order 5 .
 
-G30. Let $H=\{1,-1, i,-i\}$ be the subgroup of the multiplicative group $G=\mathbb{C}^{*}=\mathbb{C} \backslash\{0\}$ consisting of the fourth roots of unity. Describe the cosets of $H$ in $G$, and show that the quotient $G / H$ is isomorphic to $G$.\\
-G31. (a) Show that the set of all elements of finite order in an abelian group form a subgroup.\\
-(b) Let $G=\mathbb{R} / \mathbb{Z}$. Show that the set of elements of $G$ of finite order is the subgroup $\mathbb{Q} / \mathbb{Z}$.
+G34. \begin{itemize}
+	\item[(a)] Determine the number of Sylow $p$-subgroups of $S_{5}$ for each prime factor $p$ of $\left|S_{5}\right|$. Please prove your assertion.
+	\item[(b)] Identify the isomorphism type of each Sylow $p$-subgroup of $S_{5}$. Please prove your assertion.
+\end{itemize}
+\soln
+\qed\\
 
-G32. Determine all the finite groups which have exactly 3 conjugacy classes.\\
-G33. (a) Find a Sylow 2-subgroup of $S_{4}$ and identify its isomorphism type.\\
-(b) How many Sylow 2-subgroups of $S_{4}$ are there? Please justify your answer.
 
-G34. (a) Determine the number of Sylow $p$-subgroups of $S_{5}$ for each prime factor $p$ of $\left|S_{5}\right|$. Please prove your assertion.\\
-(b) Identify the isomorphism type of each Sylow $p$-subgroup of $S_{5}$. Please prove your assertion.
+\textbf{G35:} Let $p<q$ be prime numbers such that $p \mid(q-1)$. Show there exists a unique nonabelian group of order $p q$ up to isomorphism.\\
+\soln
+\qed\\
 
-G35. Let $p<q$ be prime numbers such that $p \mid(q-1)$. Show there exists a unique nonabelian group of order $p q$ up to isomorphism.\\
-G36. (a) Define what it means for a group $G$ to act on a set $A$.\\
-(b) The group $\mathrm{GL}_{2}(\mathbb{C})$ acts by left-multiplication on the set of matrices $M_{2,5}(\mathbb{C})$. Describe the orbits. How many are there?
+
+\textbf{G36:}
+\begin{itemize}
+	\item[(a)] Define what it means for a group $G$ to act on a set $A$.
+	\item[(b)] The group $\mathrm{GL}_{2}(\mathbb{C})$ acts by left-multiplication on the set of matrices $M_{2,5}(\mathbb{C})$. Describe the orbits. How many are there?
+\end{itemize}
+\soln
+\qed\\
+
+
+\textbf{Problems Left: 30,32,33,34,35,36}
