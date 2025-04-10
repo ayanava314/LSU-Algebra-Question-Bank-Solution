@@ -44,13 +44,28 @@ Now we will discuss a little bit about properties that hold in a PID(not necessa
 (b) What are the units in $R$ ?\\
 (c) Is the element 2 irreducible in $R$ ?\\
 (d) If $x, y \in R$, and 2 divides $x y$, does it follow that 2 divides either $x$ or $y$ ? Justify your answer.
-\soln
+\soln Let $ R=\Z[\sqrt{-3}] $
+\begin{itemize}
+	\item[(a)] Let $ (a+b\sqrt{-3})(c+d\sqrt{-3})=0\implies ac-3bd +\sqrt{-3}(ad+bc) = 0\implies \dfrac{a}{d}=\dfrac{3b}{c}=3k $\\
+	This implies $ 3kd^2 + kc^2=0 \implies k=0$ or $ c=d=0 $. $ k=0\implies a=b=0 $, So, one of the factor is $ 0 $. 
+	\item[(b)] Let $ (a+b\sqrt{-3})(c+d\sqrt{-3})=1 \implies (a-b\sqrt{-3})(c-d\sqrt{-3})=1 \implies (a^2 +3b^2)(c^2+3d^2)=1\implies b=d=0, a=c=\pm 1 $. So, the only units are $ \pm 1 $.
+	\item[(c)] $ \alpha\beta=2 \implies \bar{\alpha}\bar{\beta}=2 \implies 4= \mid\alpha\mid^2\mid\beta\mid^2$. This gives us that one of them is a unit.
+	\item[(d)] $ (1+\sqrt{-3})(1-\sqrt{-3})=4 $. But $ 2 $ doesn't divide the elements individually.
+\end{itemize}
 \qed\\
-
-R2. (a) Give an example of an integral domain with exactly 9 elements.\\
-(b) Is there an integral domain with exactly 10 elements? Justify your answer.
-
-R3. Let
+\textbf{R2:} 
+\begin{itemize}
+	\item[(a)] Give an example of an integral domain with exactly 9 elements.
+	\item[(b)] Is there an integral domain with exactly 10 elements? Justify your answer. 
+\end{itemize}
+\soln
+Finite integral domains are fields. Finite fields are of prime powers.
+\begin{itemize}
+	\item[(a)] $ \mathbb{F}_9=\mathbb{F}_3[x]/(x^2+1) $.
+	\item[(b)] Not possible.
+\end{itemize} 
+\qed\\
+\textbf{R3.1:} Let
 
 $$
 F=\left\{\left[\begin{array}{cc}
@@ -59,35 +74,66 @@ F=\left\{\left[\begin{array}{cc}
 \end{array}\right]: a, b \in \mathbb{Q}\right\} .
 $$
 
-(a) Prove that $F$ is a field under the usual matrix operations of addition and multiplication.\\
-(b) Prove that $F$ is isomorphic to the field $\mathbb{Q}(\sqrt{2})$.
+\begin{itemize}
+	\item[(a)] Prove that $F$ is a field under the usual matrix operations of addition and multiplication.
+	\item[(b)] Prove that $F$ is isomorphic to the field $\mathbb{Q}(\sqrt{2})$.
+\end{itemize}
+\textbf{R3.2:} Let $\mathbb{F}$ be a field and let $R=\mathbb{F}[X, Y]$ be the ring of polynomials in $X$ and $Y$ with coefficients from $\mathbb{F}$.
+\begin{itemize}
+	\item[(a)] Show that $M=\langle X+1, Y-2\rangle$ is a maximal ideal of $R$.
+	\item[(b)] Show that $P=\langle X+Y+1\rangle$ is a prime ideal of $R$.
+	\item[(c)] Is $P$ a maximal ideal of $R$ ? Justify your answer.
+\end{itemize}
 
-R3. Let $\mathbb{F}$ be a field and let $R=\mathbb{F}[X, Y]$ be the ring of polynomials in $X$ and $Y$ with coefficients from $\mathbb{F}$.\\
-(a) Show that $M=\langle X+1, Y-2\rangle$ is a maximal ideal of $R$.\\
-(b) Show that $P=\langle X+Y+1\rangle$ is a prime ideal of $R$.\\
-(c) Is $P$ a maximal ideal of $R$ ? Justify your answer.
-
-R4. Let $R$ be an integral domain containing a field $k$ as a subring. Suppose that $R$ is a finite-dimensional vector space over $k$, with scalar multiplication being the multiplication in $R$. Prove that $R$ is a field.\\
-R5. Let $R$ be a commutative ring with identity and let $I$ and $J$ be ideals of $R$.\\
-(a) Define
-
+\soln
+We only need to verify multiplication and inverse.
+\begin{itemize}
+	\item[1.a] $$ \matr{a_1}{b_1}{2b_1}{a_1}\matr{a_2}{b_2}{2b_2}{a_2}=\matr{a_1a_2 + 2b_1b_2}{a_1b_2+b_1a_2}{2a_1b_2+2b_1a_2}{2b_1b_2+a_1a_2}\in F $$. \\
+	Let $ \matr{a}{b}{2b}{a}\ne \matr{0}{0}{0}{0}\implies a^2 -2b^2 \ne 0 $.
+	$$ \matr{a}{b}{2b}{a}^{-1}= \frac{1}{a^2-2b^2}\matr{a}{-b}{-2b}{a}\in F $$
+	\item[1.b] $$ \matr{a}{b}{2b}{a}\mapsto a + b\sqrt{2} $$ Check the multiplication.
+	\item[2.a] Let $ \varphi: R \to \mathbb{F} $ given by $ \varphi(x) = -1, \varphi(y)=2 $. We show that kernel is $ M $ and image is full(clearly), FIT implies that $ R/M \cong \mathbb{F} \implies M $ is maximal.\\
+	$ <x+1,y-2>\subseteq ker(\varphi) $. Let $ \varphi(f(x,y))=0 $. $ f(x,y)= h(y)+ (x-1)g(x,y) $.\\
+	$ f(-1,2)=0 \implies h(2)=0 \implies (y-2)\mid h(y)$. This proves that the kernel is $ <x+1,y-2> $.\\
+	\textbf{Alternatively:} $$ \dfrac{\mathbb{F}[x,y]}{(x+1,y-2)} \cong \dfrac{\mathbb{F}[x][y]/(y-2)}{(x+1,y-2)/(y-2)} \cong \dfrac{\mathbb{F}[x]}{(x-1)} \cong \mathbb{F} $$
+	\item[2.b] $ R/P \cong \mathbb{F}[x] $ integral domain implies $ P $ is prime.\\
+	($ \phi: R \to \mathbb{F}[x] $ with $ x\mapsto x, y \mapsto -(x+1) $. $ \phi(f(x,y))=0 \implies F(y)$ as a polynomial of $ y $ has a root at $ (-x-1) \implies (y+x+1) \mid f $, this shows the kernel is equal to $ P $).
+	\item[2.c] From the previous solution we can already see $ R/P $ is not a field. Alternatively, $ P\subsetneq (x+1,y) $.  
+\end{itemize}
+\qed\\
+\textbf{R4:} Let $R$ be an integral domain containing a field $k$ as a subring. Suppose that $R$ is a finite-dimensional vector space over $k$, with scalar multiplication being the multiplication in $R$. Prove that $R$ is a field.\\
+\soln
+\includegraphics{R2.4.png}
+\qed\\
+\newpage
+\textbf{R5:} Let $R$ be a commutative ring with identity and let $I$ and $J$ be ideals of $R$.\\
+\begin{itemize}
+	\item[(a)] Define
 $$
 (I: J)=\{r \in R: r x \in I \text { for all } x \in J\}
 $$
+Show that $(I: J)$ is an ideal of $R$ containing $I$.
+	\item[(b)] Show that if $P$ is a prime ideal of $R$ and $x \notin P$, then $(P:\langle x\rangle)=P$, where $\langle x\rangle$ denotes the principal ideal generated by $x$.
+	\item[(c)] Define what is meant by the sum $I+J$ and the product $I J$ of the ideals $I$ and $J$.
+	\item[(d)] If $I$ and $J$ are distinct maximal ideals, show that $I+J=R$ and $I \cap J=I J$.
+\end{itemize}
 
-Show that $(I: J)$ is an ideal of $R$ containing $I$.\\
-(b) Show that if $P$ is a prime ideal of $R$ and $x \notin P$, then $(P:\langle x\rangle)=P$, where $\langle x\rangle$ denotes the principal ideal generated by $x$.\\
-(a) Define what is meant by the sum $I+J$ and the product $I J$ of the ideals $I$ and $J$.\\
-(b) If $I$ and $J$ are distinct maximal ideals, show that $I+J=R$ and $I \cap J=I J$.
+\soln
 
-R6. Let $\mathbb{F}_{2}$ be the field with 2 elements.\\
-(a) Show that $f(X)=X^{3}+X^{2}+1$ and $g(X)=X^{3}+X+1$ are the only irreducible polynomials of degree 3 in $\mathbb{F}_{2}[X]$.\\
-(b) Give an explicit field isomorphism
+\includegraphics{R2.5.png}
+\qed\\
+\textbf{R6:} Let $\mathbb{F}_{2}$ be the field with 2 elements.
+\begin{itemize}
+	\item[(a)] Show that $f(X)=X^{3}+X^{2}+1$ and $g(X)=X^{3}+X+1$ are the only irreducible polynomials of degree 3 in $\mathbb{F}_{2}[X]$.
+	\item[(b)] Give an explicit field isomorphism
 
 $$
 \mathbb{F}_{2}[X] /\langle f(X)\rangle \cong \mathbb{F}_{2}[X] /\langle g(X)\rangle
 $$
-
+\end{itemize}
+\soln
+\includegraphics{R2.6.png}
+\qed\\
 R7. Show that $\mathbb{Z}[i] /\langle 1+i\rangle$ is isomorphic to the field $\mathbb{F}_{2}$ with 2 elements. As usual, $i$ denotes the complex number $\sqrt{-1}$ and $\langle 1+i\rangle$ denotes the principal ideal of $\mathbb{Z}[i]$ generated by $1+i$.\\
 R8. Consider the ring $\mathbb{Z}[X]$ of polynomials in one variable $X$ with coefficients in $\mathbb{Z}$.\\
 (a) Find all the units of $\mathbb{Z}[X]$.\\
@@ -105,11 +151,20 @@ R11. Suppose that $R$ is an integral domain and $X$ is an indeterminate.\\
 
 R12. (a) Prove that every Euclidean domain is a principal ideal domain (PID).\\
 (b) Give an example of a unique factorization domain that is not a PID and justify your answer.
-
-R13. (a) Show that for each natural number $n \in \mathbb{N}$, there is an irreducible polynomial $P_{n}(X) \in \mathbb{Q}[X]$ of degree $n$.\\
-(b) Is this true when $\mathbb{Q}$ is replaced by $\mathbb{R}$ ? Explain.
-
-R14. Let $R$ be a commutative ring with identity. If $I \subseteq R$ is an ideal, then the radical of $I$, denoted $\sqrt{I}$, is defined by
+\soln
+\qed\\
+\textbf{R13:}
+\begin{itemize}
+	\item[(a)] Show that for each natural number $n \in \mathbb{N}$, there is an irreducible polynomial $P_{n}(X) \in \mathbb{Q}[X]$ of degree $n$.\\
+	\item[(b)] Is this true when $\mathbb{Q}$ is replaced by $\mathbb{R}$ ? Explain. 
+\end{itemize} 
+\soln Remember the Eisenstein Criterion and Gauss Lemma. Let $ p(x)=a_nx^n +\cdots +a_0 $ be such that a prime $ p $ divides $ a_0,\cdots, a_{n-1}, p\nmid a_n, p^2\nmid a_0 $ then the polynomial is irreducible over $ \Z $ or $ \Q $.
+\begin{itemize}
+	\item[(a)] Let $ P_n(X)= X^n + 2 $
+	\item[(b)] This is not true for $ \R $. The maximum degree of irreducible polynomial over $ \R $ is $ 2 $. E.g. $ x^2+1 $.
+\end{itemize}
+\qed\\
+\textbf{R14:} Let $R$ be a commutative ring with identity. If $I \subseteq R$ is an ideal, then the radical of $I$, denoted $\sqrt{I}$, is defined by
 
 $$
 \sqrt{I}=\left\{a \in R: a^{n} \in I \text { for some positive integer } n\right\}

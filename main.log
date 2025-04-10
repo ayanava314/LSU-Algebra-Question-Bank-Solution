@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.24)  3 APR 2025 20:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.24)  10 APR 2025 20:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1052,32 +1052,80 @@ Underfull \hbox (badness 10000) in paragraph at lines 439--440
 
 ]
 Chapter 2.
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+[9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 103--105
 
  []
 
-[10] [11]) [12]
+<R2.4.png, id=70, 391.4625pt x 392.96812pt>
+File: R2.4.png Graphic file (type png)
+<use R2.4.png>
+Package pdftex.def Info: R2.4.png  used on input line 106.
+(pdftex.def)             Requested size: 391.46153pt x 392.96715pt.
+
+Overfull \hbox (4.46553pt too wide) in paragraph at lines 106--108
+[]\OT1/cmr/bx/n/10 Solution 2.4. [][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
+
+ []
+
+[11 <./R2.4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+<R2.5.png, id=76, 407.27156pt x 395.22656pt>
+File: R2.5.png Graphic file (type png)
+<use R2.5.png>
+Package pdftex.def Info: R2.5.png  used on input line 123.
+(pdftex.def)             Requested size: 407.27055pt x 395.22559pt.
+
+Overfull \hbox (20.27455pt too wide) in paragraph at lines 123--126
+[]\OT1/cmr/bx/n/10 Solution 2.5. [][]
+ []
+
+<R2.6.png, id=77, 389.95688pt x 419.31656pt>
+File: R2.6.png Graphic file (type png)
+<use R2.6.png>
+Package pdftex.def Info: R2.6.png  used on input line 135.
+(pdftex.def)             Requested size: 389.95592pt x 419.31552pt.
+
+Overfull \hbox (2.95992pt too wide) in paragraph at lines 135--142
+[]\OT1/cmr/bx/n/10 Solution 2.6. [][]
+ []
+
+
+Underfull \vbox (badness 1308) has occurred while \output is active []
+
+ [12 <./R2.5.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
+
+ []
+
+[13 <./R2.6.png>] [14]) [15]
 \openout2 = `./TeX_files/chapter03.aux'.
 
- (TeX_files/chapter03.tex
+ (TeX_files/chapter03.tex [16
+
+
+
+
+]
 Chapter 3.
-[13
-
-
-
-
-]) [14]
+[17]) [18]
 \openout2 = `./TeX_files/chapter04.aux'.
 
  (TeX_files/chapter04.tex
 Chapter 4.
-) [15
+) [19
 
 
 
 
-] [16
+] [20
 
 
 
@@ -1089,10 +1137,10 @@ L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 15452 strings out of 475248
- 319800 string characters out of 5756869
+ 15473 strings out of 475248
+ 320112 string characters out of 5756869
  1957785 words of memory out of 5000000
- 36652 multiletter control sequences out of 15000+600000
+ 36673 multiletter control sequences out of 15000+600000
  571040 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,11n,97p,690b,210s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1122,9 +1170,9 @@ ams/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Ayanava/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/U
 sers/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/
 msbm7.pfb>
-Output written on main.pdf (20 pages, 340907 bytes).
+Output written on main.pdf (24 pages, 553872 bytes).
 PDF statistics:
- 180 PDF objects out of 1000 (max. 8388607)
+ 199 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 

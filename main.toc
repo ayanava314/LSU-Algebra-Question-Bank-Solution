@@ -4,5 +4,5 @@
 \contentsline {chapter}{\numberline {2}Ring Theory}{9}{}%
 \contentsline {section}{\numberline {2.1}Brief Discussion on Bezout Domain, PID, UFD, gcd, lcm}{9}{}%
 \contentsline {section}{\numberline {2.2}Solution}{10}{}%
-\contentsline {chapter}{\numberline {3}Module Theory}{13}{}%
-\contentsline {chapter}{\numberline {4}Linear Algebra}{15}{}%
+\contentsline {chapter}{\numberline {3}Module Theory}{17}{}%
+\contentsline {chapter}{\numberline {4}Linear Algebra}{19}{}%
