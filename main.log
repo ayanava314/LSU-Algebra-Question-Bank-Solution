@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.24)  18 APR 2025 05:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.9.24)  18 APR 2025 05:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -640,20 +640,60 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \colbreak@box=\box117
 \mc@col@check@num=\count312
 )
-\c@definition=\count313
-\c@theorem=\count314
-\c@example=\count315
-\c@proposition=\count316
-\c@corollaryp=\count317
-\c@corollaryt=\count318
-\c@lemma=\count319
-\c@soln=\count320
+(C:\Users\Ayanava\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2025/03/12 v0.6f Insert pages of external PDF documents (AM)
+(C:\Users\Ayanava\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count313
+\calc@Bcount=\count314
+\calc@Adimen=\dimen282
+\calc@Bdimen=\dimen283
+\calc@Askip=\skip73
+\calc@Bskip=\skip74
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count315
+\calc@Cskip=\skip75
+)
+(C:\Users\Ayanava\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen284
+\ESO@tempdimb=\dimen285
+)
+(C:\Users\Ayanava\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count316
+)
+\AM@pagewidth=\dimen286
+\AM@pageheight=\dimen287
+\AM@fboxrule=\dimen288
+
+(C:\Users\Ayanava\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2025/03/12 v0.6f Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count317
+\AM@pagebox=\box118
+\AM@global@opts=\toks46
+\AM@pagecnt=\count318
+\AM@toc@title=\toks47
+\AM@lof@heading=\toks48
+\c@AM@survey=\count319
+\AM@templatesizebox=\box119
+)
+\c@definition=\count320
+\c@theorem=\count321
+\c@example=\count322
+\c@proposition=\count323
+\c@corollaryp=\count324
+\c@corollaryt=\count325
+\c@lemma=\count326
+\c@soln=\count327
 
 (C:\Users\Ayanava\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-p
 dftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count321
-\l__pdf_internal_box=\box118
+\l__color_backend_stack_int=\count328
+\l__pdf_internal_box=\box120
 ) (main.aux (TeX_files/chapter01.aux) (TeX_files/chapter02.aux))
 \openout1 = `main.aux'.
 
@@ -710,17 +750,17 @@ LaTeX Font Info:    ... okay on input line 42.
 (C:\Users\Ayanava\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.
 mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count322
-\scratchdimen=\dimen282
-\scratchbox=\box119
-\nofMPsegments=\count323
-\nofMParguments=\count324
-\everyMPshowfont=\toks46
-\MPscratchCnt=\count325
-\MPscratchDim=\dimen283
-\MPnumerator=\count326
-\makeMPintoPDFobject=\count327
-\everyMPtoPDFconversion=\toks47
+\scratchcounter=\count329
+\scratchdimen=\dimen289
+\scratchbox=\box121
+\nofMPsegments=\count330
+\nofMParguments=\count331
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count332
+\MPscratchDim=\dimen290
+\MPnumerator=\count333
+\makeMPintoPDFobject=\count334
+\everyMPtoPDFconversion=\toks50
 )
 (C:\Users\Ayanava\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf
 -base.sty
@@ -731,6 +771,16 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Users\Ayanava\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys
 .cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+(C:\Users\Ayanava\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.s
+ty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(C:\Users\Ayanava\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-n
+ometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
 
@@ -1081,33 +1131,485 @@ File: R2.6.png Graphic file (type png)
 <use R2.6.png>
 Package pdftex.def Info: R2.6.png  used on input line 136.
 (pdftex.def)             Requested size: 389.95592pt x 419.31552pt.
-)
-Overfull \hbox (2.95992pt too wide) in paragraph at lines 136--54
+
+Overfull \hbox (2.95992pt too wide) in paragraph at lines 136--138
 []\OT1/cmr/bx/n/10 Solution 2.6. [][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--138
+
  []
 
 
 Underfull \vbox (badness 1308) has occurred while \output is active []
 
- [12 <./R2.5.png>] [13 <./R2.6.png>] [14
+ [12 <./R2.5.png>]
+<main2.pdf, id=80, 456.74641pt x 590.6567pt>
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf>
+Package pdftex.def Info: main2.pdf  used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+<main2.pdf, id=82, page=2, 456.74641pt x 590.6567pt>
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 2>
+Package pdftex.def Info: main2.pdf , page2 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 2>
+Package pdftex.def Info: main2.pdf , page2 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+ [13 <./R2.6.png>]
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 2>
+Package pdftex.def Info: main2.pdf , page2 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 2>
+Package pdftex.def Info: main2.pdf , page2 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 2>
+Package pdftex.def Info: main2.pdf , page2 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+ [14
 
+ <./main2.pdf>]
+<main2.pdf, id=275, page=3, 456.74641pt x 590.6567pt>
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 3>
+Package pdftex.def Info: main2.pdf , page3 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 3>
+Package pdftex.def Info: main2.pdf , page3 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 3>
+Package pdftex.def Info: main2.pdf , page3 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+ [15
 
+ <./main2.pdf>]
+<main2.pdf, id=489, page=4, 456.74641pt x 590.6567pt>
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 4>
+Package pdftex.def Info: main2.pdf , page4 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 4>
+Package pdftex.def Info: main2.pdf , page4 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 4>
+Package pdftex.def Info: main2.pdf , page4 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+ [16
 
-] (main.aux (TeX_files/chapter01.aux)
-(TeX_files/chapter02.aux))
+ <./main2.pdf>]
+<main2.pdf, id=702, page=5, 456.74641pt x 590.6567pt>
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 5>
+Package pdftex.def Info: main2.pdf , page5 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 5>
+Package pdftex.def Info: main2.pdf , page5 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 5>
+Package pdftex.def Info: main2.pdf , page5 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+ [17
+
+ <./main2.pdf>]
+<main2.pdf, id=1025, page=6, 456.74641pt x 590.6567pt>
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 6>
+Package pdftex.def Info: main2.pdf , page6 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 6>
+Package pdftex.def Info: main2.pdf , page6 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 6>
+Package pdftex.def Info: main2.pdf , page6 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+ [18
+
+ <./main2.pdf>]
+<main2.pdf, id=1250, page=7, 456.74641pt x 590.6567pt>
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 7>
+Package pdftex.def Info: main2.pdf , page7 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 7>
+Package pdftex.def Info: main2.pdf , page7 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 7>
+Package pdftex.def Info: main2.pdf , page7 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+ [19
+
+ <./main2.pdf>]
+<main2.pdf, id=1385, page=8, 456.74641pt x 590.6567pt>
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 8>
+Package pdftex.def Info: main2.pdf , page8 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 8>
+Package pdftex.def Info: main2.pdf , page8 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 8>
+Package pdftex.def Info: main2.pdf , page8 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+ [20
+
+ <./main2.pdf>]
+<main2.pdf, id=1547, page=9, 456.74641pt x 590.6567pt>
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 9>
+Package pdftex.def Info: main2.pdf , page9 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 9>
+Package pdftex.def Info: main2.pdf , page9 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 9>
+Package pdftex.def Info: main2.pdf , page9 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+
+[21
+
+ <./main2.pdf>]
+<main2.pdf, id=1749, page=10, 456.74641pt x 590.6567pt>
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 10>
+Package pdftex.def Info: main2.pdf , page10 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 10>
+Package pdftex.def Info: main2.pdf , page10 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 10>
+Package pdftex.def Info: main2.pdf , page10 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+ [22
+
+ <./main2.pdf>]
+<main2.pdf, id=1870, page=11, 456.74641pt x 590.6567pt>
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 11>
+Package pdftex.def Info: main2.pdf , page11 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 11>
+Package pdftex.def Info: main2.pdf , page11 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 11>
+Package pdftex.def Info: main2.pdf , page11 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+ [23
+
+ <./main2.pdf>]
+<main2.pdf, id=2068, page=12, 456.74641pt x 590.6567pt>
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 12>
+Package pdftex.def Info: main2.pdf , page12 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 12>
+Package pdftex.def Info: main2.pdf , page12 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 12>
+Package pdftex.def Info: main2.pdf , page12 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+ [24
+
+ <./main2.pdf>]
+<main2.pdf, id=2372, page=13, 456.74641pt x 590.6567pt>
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 13>
+Package pdftex.def Info: main2.pdf , page13 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 13>
+Package pdftex.def Info: main2.pdf , page13 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 13>
+Package pdftex.def Info: main2.pdf , page13 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+
+[25
+
+ <./main2.pdf>]
+<main2.pdf, id=2477, page=14, 456.74641pt x 590.6567pt>
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 14>
+Package pdftex.def Info: main2.pdf , page14 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 14>
+Package pdftex.def Info: main2.pdf , page14 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 14>
+Package pdftex.def Info: main2.pdf , page14 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+ [26
+
+ <./main2.pdf>]
+<main2.pdf, id=2738, page=15, 456.74641pt x 590.6567pt>
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 15>
+Package pdftex.def Info: main2.pdf , page15 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 15>
+Package pdftex.def Info: main2.pdf , page15 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 15>
+Package pdftex.def Info: main2.pdf , page15 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+ [27
+
+ <./main2.pdf>]
+<main2.pdf, id=2934, page=16, 456.74641pt x 590.6567pt>
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 16>
+Package pdftex.def Info: main2.pdf , page16 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 16>
+Package pdftex.def Info: main2.pdf , page16 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 16>
+Package pdftex.def Info: main2.pdf , page16 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+ [28
+
+ <./main2.pdf>]
+<main2.pdf, id=3174, page=17, 456.74641pt x 590.6567pt>
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 17>
+Package pdftex.def Info: main2.pdf , page17 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 17>
+Package pdftex.def Info: main2.pdf , page17 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 17>
+Package pdftex.def Info: main2.pdf , page17 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+
+[29
+
+ <./main2.pdf>]
+<main2.pdf, id=3327, page=18, 456.74641pt x 590.6567pt>
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 18>
+Package pdftex.def Info: main2.pdf , page18 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 18>
+Package pdftex.def Info: main2.pdf , page18 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 18>
+Package pdftex.def Info: main2.pdf , page18 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+ [30
+
+ <./main2.pdf>]
+<main2.pdf, id=3543, page=19, 456.74641pt x 590.6567pt>
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 19>
+Package pdftex.def Info: main2.pdf , page19 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 19>
+Package pdftex.def Info: main2.pdf , page19 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 19>
+Package pdftex.def Info: main2.pdf , page19 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+ [31
+
+ <./main2.pdf>]
+<main2.pdf, id=3684, page=20, 456.74641pt x 590.6567pt>
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 20>
+Package pdftex.def Info: main2.pdf , page20 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 20>
+Package pdftex.def Info: main2.pdf , page20 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 20>
+Package pdftex.def Info: main2.pdf , page20 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+ [32
+
+ <./main2.pdf>]
+<main2.pdf, id=3837, page=21, 456.74641pt x 590.6567pt>
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 21>
+Package pdftex.def Info: main2.pdf , page21 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 21>
+Package pdftex.def Info: main2.pdf , page21 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 21>
+Package pdftex.def Info: main2.pdf , page21 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+
+[33
+
+ <./main2.pdf>]
+<main2.pdf, id=4063, page=22, 456.74641pt x 590.6567pt>
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 22>
+Package pdftex.def Info: main2.pdf , page22 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 22>
+Package pdftex.def Info: main2.pdf , page22 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 22>
+Package pdftex.def Info: main2.pdf , page22 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+ [34
+
+ <./main2.pdf>]
+<main2.pdf, id=4195, page=23, 456.74641pt x 590.6567pt>
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 23>
+Package pdftex.def Info: main2.pdf , page23 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 23>
+Package pdftex.def Info: main2.pdf , page23 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 23>
+Package pdftex.def Info: main2.pdf , page23 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+ [35
+
+ <./main2.pdf>]
+<main2.pdf, id=4442, page=24, 456.74641pt x 590.6567pt>
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 24>
+Package pdftex.def Info: main2.pdf , page24 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 24>
+Package pdftex.def Info: main2.pdf , page24 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 24>
+Package pdftex.def Info: main2.pdf , page24 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+ [36
+
+ <./main2.pdf>]
+<main2.pdf, id=4715, page=25, 456.74641pt x 590.6567pt>
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 25>
+Package pdftex.def Info: main2.pdf , page25 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 25>
+Package pdftex.def Info: main2.pdf , page25 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 25>
+Package pdftex.def Info: main2.pdf , page25 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+
+[37
+
+ <./main2.pdf>]
+<main2.pdf, id=4760, page=26, 456.74641pt x 590.6567pt>
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 26>
+Package pdftex.def Info: main2.pdf , page26 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 26>
+Package pdftex.def Info: main2.pdf , page26 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 26>
+Package pdftex.def Info: main2.pdf , page26 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+ [38
+
+ <./main2.pdf>]
+<main2.pdf, id=5070, page=27, 456.74641pt x 590.6567pt>
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 27>
+Package pdftex.def Info: main2.pdf , page27 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 27>
+Package pdftex.def Info: main2.pdf , page27 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 27>
+Package pdftex.def Info: main2.pdf , page27 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+ [39
+
+ <./main2.pdf>]
+<main2.pdf, id=5203, page=28, 456.74641pt x 590.6567pt>
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 28>
+Package pdftex.def Info: main2.pdf , page28 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 28>
+Package pdftex.def Info: main2.pdf , page28 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+File: main2.pdf Graphic file (type pdf)
+<use main2.pdf, page 28>
+Package pdftex.def Info: main2.pdf , page28 used on input line 140.
+(pdftex.def)             Requested size: 456.7453pt x 590.65526pt.
+ [40
+
+ <./main2.pdf>])
+(main.aux (TeX_files/chapter01.aux) (TeX_files/chapter02.aux))
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 15412 strings out of 475248
- 317852 string characters out of 5756869
+ 16612 strings out of 475248
+ 338284 string characters out of 5756869
  1957785 words of memory out of 5000000
- 36628 multiletter control sequences out of 15000+600000
+ 37803 multiletter control sequences out of 15000+600000
  570421 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,9n,97p,672b,210s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,18n,97p,672b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Ayanava\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
 rm1000.pk><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmbx10.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type
@@ -1132,9 +1634,9 @@ msfonts/cm/cmsy5.pfb><C:/Users/Ayanava/AppData/Local/Programs/MiKTeX/fonts/type
 fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Ayanava/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Ayanava/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (18 pages, 447323 bytes).
+Output written on main.pdf (44 pages, 35148914 bytes).
 PDF statistics:
- 173 PDF objects out of 1000 (max. 8388607)
+ 5303 PDF objects out of 6186 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 168 words of extra memory for PDF output out of 10000 (max. 10000000)
 
