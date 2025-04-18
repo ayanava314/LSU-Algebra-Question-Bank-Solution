@@ -2,7 +2,7 @@
 
 This repository contains a solution manual for the Algebra Qualifying Exam Question Bank of the **LSU Mathematics PhD Program**.
 
-It is based on the version of the question bank as of **April 2025**. The solutions provided are intended to aid in preparation for the qualifying exams and cover both **Group Theory** and **Ring Theory**, along with the remaining topics in the syllabus.
+It is based on the version of the question bank as of **April 2025**. The solutions provided are intended to aid in preparation for the qualifying exams and cover **Group, Ring, Module Theory** and **Linear Algebra**.
 
 ## Contents
 
@@ -12,7 +12,7 @@ It is based on the version of the question bank as of **April 2025**. The soluti
 
 ## Official Resources
 
-For the most up-to-date version of the test bank and past exams, please visit the official [LSU Math Qualifying Exams webpage](https://www.math.lsu.edu/grad/quals).
+For the most up-to-date version of the test bank and past exams, please visit the official [LSU Math Qualifying Exams webpage](https://www.math.lsu.edu/grad/pastcomps).
 
 ## Disclaimer
 
